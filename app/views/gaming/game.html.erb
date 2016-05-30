@@ -1,0 +1,8 @@
+<h1>Numbers and Letters</h1>
+
+<%= session[:grid].join(" ") %>
+
+<form action='/score'>
+  <input type='text' name='answer'>What's your best shot ?</input>
+  <input type='submit' type="hidden" value='go on!'></input>
+</form>
